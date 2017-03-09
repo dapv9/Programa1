@@ -22,9 +22,9 @@ public class DesviacionEstandarTest {
 		Media m1 = new Media();
 		LeerArchivoTxt lectorArchivo = new LeerArchivoTxt();
 		try {
-			l1 = lectorArchivo.leerArchivoDouble("C:\\Users\\Daniel\\Documents\\Pruebas\\Programa1\\columna1.txt");
+			l1 = lectorArchivo.leerArchivoDouble("..\Programa1\columna1.txt");
 		} catch (IOException e) {
-			   JOptionPane.showMessageDialog(null,"Error: No se encontró el archivo",
+			   JOptionPane.showMessageDialog(null,"Error: No se encontrÃ³ el archivo",
 			      "Advertencia",JOptionPane.WARNING_MESSAGE);
 		}
 		double resultadoMedia = m1.calcularMedianaLista(l1);
@@ -39,9 +39,9 @@ public class DesviacionEstandarTest {
 		Media m1 = new Media();
 		LeerArchivoTxt lectorArchivo = new LeerArchivoTxt();
 		try {
-			l1 = lectorArchivo.leerArchivoDouble("C:\\Users\\Daniel\\Documents\\Pruebas\\Programa1\\columna2.txt");
+			l1 = lectorArchivo.leerArchivoDouble("..\Programa1\columna2.txt");
 		} catch (IOException e) {
-			   JOptionPane.showMessageDialog(null,"Error: No se encontró el archivo",
+			   JOptionPane.showMessageDialog(null,"Error: No se encontrÃ³ el archivo",
 			      "Advertencia",JOptionPane.WARNING_MESSAGE);
 		}
 		double resultadoMedia = m1.calcularMedianaLista(l1);
